@@ -8,7 +8,7 @@ import time
 #main functions
 def search_username():
     username = input("Inserisci username: ")
-    print(f"🔎 Cerco '{username}' sui social...")
+    print(f" Cerco '{username}' sui social...")
 
     social_urls = {
         "Instagram": f"https://www.instagram.com/{username}",
