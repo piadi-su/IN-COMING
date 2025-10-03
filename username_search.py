@@ -31,10 +31,10 @@ def run():
         try:
             r = requests.get(url, headers=headers)
             if r.status_code == 200:
-                print(f" found on {platform}: {url}")
+                print(f" [+] {platform}: {url}")
             elif r.status_code == 404:
-                print(f" not found on {platform}")
+                print(f" [-] {platform}")
             else:
-                print(f"? {platform}: status {r.status_code}")
+                print(f" [?] {platform}: status {r.status_code}")
         except Exception as e:
             print(f"Error on {platform}: {e}")

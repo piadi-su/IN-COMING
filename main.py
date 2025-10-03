@@ -6,6 +6,8 @@ import time
 
 import ip_analysis
 import username_search
+import get_ip_url
+import url_state
 
 #main functions
 
@@ -28,7 +30,9 @@ while True:
 
       print("""
             1. username search
-            2. IP analysis 
+            2. IP analysis
+            3. get the ip of a url
+            4. url up? 
             0. exit """)
       choise_1 = input("->choise: ")
 
@@ -39,6 +43,14 @@ while True:
 
       elif choise_1 == "2":
             ip_analysis.run()
+
+      elif choise_1 == "3":
+           get_ip_url.run()
+      
+      elif choise_1 == "4":
+           url_state.run()
+           
+           
 
       elif choise_1 == "0":
           break
