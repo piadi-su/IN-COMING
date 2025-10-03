@@ -34,25 +34,25 @@ while True:
             3. get the ip of a url
             4. url up? 
             0. exit """)
-      choise_1 = input("->choise: ")
+      choice_1 = input("->choice: ")
 
 
 
-      if choise_1 == "1":
+      if choice_1 == "1":
             username_search.run()
 
-      elif choise_1 == "2":
+      elif choice_1 == "2":
             ip_analysis.run()
 
-      elif choise_1 == "3":
+      elif choice_1 == "3":
            get_ip_url.run()
       
-      elif choise_1 == "4":
+      elif choice_1 == "4":
            url_state.run()
            
            
 
-      elif choise_1 == "0":
+      elif choice_1 == "0":
           break
 
       else:
