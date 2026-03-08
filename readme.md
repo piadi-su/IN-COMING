@@ -11,6 +11,8 @@ This OSINT multi-tool allows you to:
 * Retrieve the IP address behind a URL
 * Check if a URL is online or offline
 
+![IN-COMING](img/incoming.png)
+
 ## Installation
 
 Follow these steps to install and run the tool. Each command can be copied and executed separately.
